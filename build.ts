@@ -13,13 +13,16 @@ let dic = `;; -*- fundamental -*- ; coding: utf-8 -*-
 ;; okuri-ari entries.
 ;; okuri-nasi entries.
 `;
+const lines: string[] = [];
 for (const [_, character, latex, uniMath] of dat) {
   if (latex && !latex.match(/[^a-zA-Z\\]/) && latex[0] === "\\") {
-    dic += `${latex.slice(1)} /${character}/` + "\n";
+    lines.push(`${latex.slice(1)} /${character}/` + "\n");
   }
   if (latex === uniMath) continue;
   if (uniMath && !uniMath.match(/[^a-zA-Z\\]/) && uniMath[0] === "\\") {
-    dic += `${uniMath.slice(1)} /${character}/` + "\n";
+    lines.push(`${uniMath.slice(1)} /${character}/` + "\n");
   }
 }
+// Sort alphabetically
+dic += lines.sort().join("");
 await Deno.writeTextFile("./SKK-JISYO.latex.utf8", dic);
