@@ -1,6 +1,7 @@
 const src = await Deno.readTextFile("./unicode_latex_unicodemath.json");
 const dat = JSON.parse(src) as string[][];
-let dic = `;; LaTeX Symbol Dictionary
+let dic = `;; -*- fundamental -*- ; coding: utf-8 -*-
+;; LaTeX Symbol Dictionary
 ;; Copyright: (c) 2021 TANIGUCHI Masaya
 ;;
 ;; Original: http://milde.users.sourceforge.net/LUCR/Math/unimathsymbols.html
