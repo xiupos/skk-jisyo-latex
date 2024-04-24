@@ -1,0 +1,3 @@
+[submodule "unicode-math"]
+	path = unicode-math
+	url = git@github.com:latex3/unicode-math.git

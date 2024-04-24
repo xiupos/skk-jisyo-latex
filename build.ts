@@ -1,28 +1,30 @@
-const src = await Deno.readTextFile("./unicode_latex_unicodemath.json");
-const dat = JSON.parse(src) as string[][];
+const src = await Deno.readTextFile("./unicode-math/unicode-math-table.tex");
+const dat = src
+  .split("\n")
+  .map((line: string) => line.split("%")[0])
+  .filter(Boolean)
+  .map((line) => [...line.matchAll(/\{([^\{\}]*)\}/g)].map((a) => a[1].trim()));
 let dic = `;; -*- fundamental -*- ; coding: utf-8 -*-
-;; LaTeX Symbol Dictionary
-;; Copyright: (c) 2021 TANIGUCHI Masaya
+;; LaTeX Symbol Dictionary using unicode-math
+;; Copyright (c) 2021 TANIGUCHI Masaya
+;; Copyright (c) 2024 xiupos
 ;;
-;; Original: http://milde.users.sourceforge.net/LUCR/Math/unimathsymbols.html
-;; Copyright: (c) 2011 G\"unter Milde
-;; Date: Last revised 2011-11-08
-;; License: This work may be distributed and/or modified under the condition of
-;;          LaTeX Project Public License, eiter version 1.3 of this license or
-;;          (at your option) any later version.
+;; Original: https://github.com/latex3/unicode-math/blob/master/unicode-math-table.tex
+;; Copyright (c) 2006-2019  Will Robertson, LPPL "maintainer"
+;; Copyright (c) 2010-2017  Philipp Stephani
+;; Copyright (c) 2011-2017  Joseph Wright
+;; Copyright (c) 2012-2015  Khaled Hosny
+;;
 ;; okuri-ari entries.
 ;; okuri-nasi entries.
 `;
 const lines: string[] = [];
-for (const [_, character, latex, uniMath] of dat) {
-  if (latex && !latex.match(/[^a-zA-Z\\]/) && latex[0] === "\\") {
-    lines.push(`${latex.slice(1)} /${character}/` + "\n");
-  }
-  if (latex === uniMath) continue;
-  if (uniMath && !uniMath.match(/[^a-zA-Z\\]/) && uniMath[0] === "\\") {
-    lines.push(`${uniMath.slice(1)} /${character}/` + "\n");
-  }
+for (const line of dat) {
+  const symbol = String.fromCodePoint(Number("0x" + line[0].slice(1)));
+  const command = line[1].slice(1);
+  const description = line[3];
+  lines.push(`${command} /${symbol};${description}/`);
 }
 // Sort alphabetically
-dic += lines.sort().join("");
-await Deno.writeTextFile("./SKK-JISYO.latex.utf8", dic);
+dic += lines.sort().join("\n");
+await Deno.writeTextFile("./SKK-JISYO.latex.unicode-math.utf8", dic);
