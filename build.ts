@@ -22,7 +22,7 @@ const lines: string[] = [];
 for (const line of dat) {
   const symbol = String.fromCodePoint(Number("0x" + line[0].slice(1)));
   const command = line[1].slice(1);
-  const description = line[3];
+  const description = String(line[3]).replace(/\//g, '');
   lines.push(`${command} /${symbol};${description}/`);
 }
 // Sort alphabetically

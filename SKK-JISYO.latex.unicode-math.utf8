@@ -19,24 +19,24 @@ Angstrom /Å;angstrom capital a, ring/
 Barv /⫧;short down tack with overbar/
 BbbA /𝔸;mathematical double-struck capital a/
 BbbB /𝔹;mathematical double-struck capital b/
-BbbC /ℂ;/bbb c, open face c/
+BbbC /ℂ;bbb c, open face c/
 BbbD /𝔻;mathematical double-struck capital d/
 BbbE /𝔼;mathematical double-struck capital e/
 BbbF /𝔽;mathematical double-struck capital f/
 BbbG /𝔾;mathematical double-struck capital g/
 BbbGamma /ℾ;double-struck capital gamma/
-BbbH /ℍ;/bbb h, open face h/
+BbbH /ℍ;bbb h, open face h/
 BbbI /𝕀;mathematical double-struck capital i/
 BbbJ /𝕁;mathematical double-struck capital j/
 BbbK /𝕂;mathematical double-struck capital k/
 BbbL /𝕃;mathematical double-struck capital l/
 BbbM /𝕄;mathematical double-struck capital m/
-BbbN /ℕ;/bbb n, open face n/
+BbbN /ℕ;bbb n, open face n/
 BbbO /𝕆;mathematical double-struck capital o/
-BbbP /ℙ;/bbb p, open face p/
+BbbP /ℙ;bbb p, open face p/
 BbbPi /ℿ;double-struck capital pi/
-BbbQ /ℚ;/bbb q, open face q/
-BbbR /ℝ;/bbb r, open face r/
+BbbQ /ℚ;bbb q, open face q/
+BbbR /ℝ;bbb r, open face r/
 BbbS /𝕊;mathematical double-struck capital s/
 BbbT /𝕋;mathematical double-struck capital t/
 BbbU /𝕌;mathematical double-struck capital u/
@@ -44,7 +44,7 @@ BbbV /𝕍;mathematical double-struck capital v/
 BbbW /𝕎;mathematical double-struck capital w/
 BbbX /𝕏;mathematical double-struck capital x/
 BbbY /𝕐;mathematical double-struck capital y/
-BbbZ /ℤ;/bbb z, open face z/
+BbbZ /ℤ;bbb z, open face z/
 Bbba /𝕒;mathematical double-struck small a/
 Bbbb /𝕓;mathematical double-struck small b/
 Bbbc /𝕔;mathematical double-struck small c/
@@ -85,16 +85,16 @@ Bbby /𝕪;mathematical double-struck small y/
 Bbbz /𝕫;mathematical double-struck small z/
 Bbbzero /𝟘;mathematical double-struck digit 0/
 Bumpeq /≎;bumpy equals/
-Cap /⋒;/cap /doublecap b: double intersection/
+Cap /⋒;cap doublecap b: double intersection/
 Colon /∷;two colons/
 Coloneq /⩴;double colon equal/
-Cup /⋓;/cup /doublecup b: double union/
+Cup /⋓;cup doublecup b: double union/
 DDownarrow /⟱;downwards quadruple arrow/
 DashV /⫥;double vertical bar double left turnstile/
 DashVDash /⟚;left and right double turnstile/
 Dashv /⫤;vertical bar double left turnstile/
 Ddownarrow /⤋;downwards triple arrow/
-Doteq /≑;/doteqdot /doteq r: equals, even dots/
+Doteq /≑;doteqdot doteq r: equals, even dots/
 Downarrow /⇓;down double arrow/
 Equiv /≣;strict equivalence (4 lines)/
 Eulerconst /ℇ;euler constant/
@@ -117,7 +117,7 @@ Longmapsfrom /⟽;long leftwards double arrow from bar/
 Longmapsto /⟾;long rightwards double arrow from bar/
 Longrightarrow /⟹;long rightwards double arrow/
 Lparengtr /⦕;double left arc greater-than bracket/
-Lsh /↰;/lsh a:/
+Lsh /↰;lsh a:/
 Lt /⪡;double nested less-than/
 Lvzigzag /⧚;left double wiggly fence/
 Mapsfrom /⤆;leftwards double arrow from bar/
@@ -138,7 +138,7 @@ Re /ℜ;real part/
 Rightarrow /⇒;implies/
 Rparenless /⦖;double right arc less-than bracket/
 Rrightarrow /⇛;right triple arrow/
-Rsh /↱;/rsh a:/
+Rsh /↱;rsh a:/
 Rvzigzag /⧛;right double wiggly fence/
 Searrow /⇘;se pointing double arrow/
 Sqcap /⩎;double square intersection/
@@ -288,7 +288,7 @@ boxbox /⧈;squared square/
 boxbslash /⧅;squared falling diagonal slash/
 boxcircle /⧇;squared small circle/
 boxdiag /⧄;squared rising diagonal slash/
-boxdot /⊡;/dotsquare /boxdot b: small dot in box/
+boxdot /⊡;dotsquare boxdot b: small dot in box/
 boxminus /⊟;minus sign in box/
 boxonbox /⧉;two joined squares/
 boxplus /⊞;plus sign in box/
@@ -311,7 +311,7 @@ caretinsert /‸;caret (insertion mark)/
 carriagereturn /↵;downwards arrow with corner leftward = carriage return/
 ccwundercurvearrow /⤿;lower left semicircular anticlockwise arrow/
 cdot /⋅;small middle dot/
-cdotp /·;/centerdot b: middle dot/
+cdotp /·;centerdot b: middle dot/
 check /̌;caron/
 checkmark /✓;tick, check mark/
 cirE /⧃;circle with two horizontal strokes to the right/
@@ -530,7 +530,7 @@ fourvdots /⦙;dotted fence/
 fracslash /⁄;fraction slash/
 frown /⌢;down curve/
 fullouterjoin /⟗;full outer join/
-geq /≥;/geq /ge r: greater-than-or-equal/
+geq /≥;geq ge r: greater-than-or-equal/
 geqq /≧;greater, double equals/
 geqqslant /⫺;double-line slanted greater-than or equal to/
 geqslant /⩾;greater-than or slanted equal to/
@@ -540,7 +540,7 @@ gesdoto /⪂;greater-than or slanted equal to with dot above/
 gesdotol /⪄;greater-than or slanted equal to with dot above left/
 gesles /⪔;greater-than above slanted equal above less-than above slanted equal/
 gg /≫;much greater than, type 2/
-ggg /⋙;/ggg /gg /gggtr r: triple greater-than/
+ggg /⋙;ggg gg gggtr r: triple greater-than/
 gggnest /⫸;stacked very much greater-than/
 gimel /ℷ;gimel, hebrew/
 glE /⪒;greater-than above less-than above double-line equal/
@@ -584,7 +584,7 @@ hourglass /⧖;white hourglass/
 house /⌂;house/
 hrectangle /▭;horizontal rectangle, open/
 hrectangleblack /▬;black rectangle/
-hslash /ℏ;/hslash - variant planck's over 2pi/
+hslash /ℏ;hslash - variant planck's over 2pi/
 hyphenbullet /⁃;rectangle, filled (hyphen bullet)/
 hzigzag /〰;zigzag/
 iiiint /⨌;quadruple integral operator/
@@ -649,7 +649,7 @@ lbrackultick /⦍;left square bracket with tick in top corner/
 lbrbrak /❲;light left tortoise shell bracket ornament/
 lceil /⌈;left ceiling/
 lcurvyangle /⧼;left pointing curved angle bracket/
-leftarrow /←;/leftarrow /gets a: leftward arrow/
+leftarrow /←;leftarrow gets a: leftward arrow/
 leftarrowapprox /⭊;leftwards arrow above almost equal to/
 leftarrowbackapprox /⭂;leftwards arrow above reverse almost equal to/
 leftarrowbsimilar /⭋;leftwards arrow above reverse tilde operator/
@@ -698,7 +698,7 @@ leftthreearrows /⬱;three leftwards arrows/
 leftthreetimes /⋋;left semidirect product/
 leftwavearrow /↜;left arrow-wavy/
 leftwhitearrow /⇦;leftwards white arrow/
-leq /≤;/leq /le r: less-than-or-equal/
+leq /≤;leq le r: less-than-or-equal/
 leqq /≦;less, double equals/
 leqqslant /⫹;double-line slanted less-than or equal to/
 leqslant /⩽;less-than or slanted equal to/
@@ -729,7 +729,7 @@ llangle /⦉;z notation left binding bracket/
 llarc /◟;lower left quadrant circular arc/
 llblacktriangle /◣;lower left triangle, filled/
 llcorner /⌞;lower left corner/
-lll /⋘;/ll /lll /llless r: triple less-than/
+lll /⋘;ll lll llless r: triple less-than/
 lllnest /⫷;stacked very much less-than/
 llparenthesis /⦇;z notation left image bracket/
 lltriangle /◺;lower left triangle/
@@ -1407,7 +1407,7 @@ mfrakD /𝔇;mathematical fraktur capital d/
 mfrakE /𝔈;mathematical fraktur capital e/
 mfrakF /𝔉;mathematical fraktur capital f/
 mfrakG /𝔊;mathematical fraktur capital g/
-mfrakH /ℌ;/frak h, upper case h/
+mfrakH /ℌ;frak h, upper case h/
 mfrakJ /𝔍;mathematical fraktur capital j/
 mfrakK /𝔎;mathematical fraktur capital k/
 mfrakL /𝔏;mathematical fraktur capital l/
@@ -1423,7 +1423,7 @@ mfrakV /𝔙;mathematical fraktur capital v/
 mfrakW /𝔚;mathematical fraktur capital w/
 mfrakX /𝔛;mathematical fraktur capital x/
 mfrakY /𝔜;mathematical fraktur capital y/
-mfrakZ /ℨ;/frak z, upper case z/
+mfrakZ /ℨ;frak z, upper case z/
 mfraka /𝔞;mathematical fraktur small a/
 mfrakb /𝔟;mathematical fraktur small b/
 mfrakc /𝔠;mathematical fraktur small c/
@@ -1451,7 +1451,7 @@ mfrakx /𝔵;mathematical fraktur small x/
 mfraky /𝔶;mathematical fraktur small y/
 mfrakz /𝔷;mathematical fraktur small z/
 mho /℧;conductance/
-mid /∣;/mid r:/
+mid /∣;mid r:/
 midbarvee /⩝;logical or with horizontal dash/
 midbarwedge /⩜;ogical and with horizontal dash/
 midcir /⫰;vertical line with circle below/
@@ -1695,11 +1695,11 @@ mscrA /𝒜;mathematical script capital a/
 mscrB /ℬ;bernoulli function (script capital b)/
 mscrC /𝒞;mathematical script capital c/
 mscrD /𝒟;mathematical script capital d/
-mscrE /ℰ;/scr e, script letter e/
-mscrF /ℱ;/scr f, script letter f/
+mscrE /ℰ;scr e, script letter e/
+mscrF /ℱ;scr f, script letter f/
 mscrG /𝒢;mathematical script capital g/
 mscrH /ℋ;hamiltonian (script capital h)/
-mscrI /ℐ;/scr i, script letter i/
+mscrI /ℐ;scr i, script letter i/
 mscrJ /𝒥;mathematical script capital j/
 mscrK /𝒦;mathematical script capital k/
 mscrL /ℒ;lagrangian (script capital l)/
@@ -1708,7 +1708,7 @@ mscrN /𝒩;mathematical script capital n/
 mscrO /𝒪;mathematical script capital o/
 mscrP /𝒫;mathematical script capital p/
 mscrQ /𝒬;mathematical script capital q/
-mscrR /ℛ;/scr r, script letter r/
+mscrR /ℛ;scr r, script letter r/
 mscrS /𝒮;mathematical script capital s/
 mscrT /𝒯;mathematical script capital t/
 mscrU /𝒰;mathematical script capital u/
@@ -1721,9 +1721,9 @@ mscra /𝒶;mathematical script small a/
 mscrb /𝒷;mathematical script small b/
 mscrc /𝒸;mathematical script small c/
 mscrd /𝒹;mathematical script small d/
-mscre /ℯ;/scr e, script letter e/
+mscre /ℯ;scr e, script letter e/
 mscrf /𝒻;mathematical script small f/
-mscrg /ℊ;/scr g, script letter g/
+mscrg /ℊ;scr g, script letter g/
 mscrh /𝒽;mathematical script small h/
 mscri /𝒾;mathematical script small i/
 mscrj /𝒿;mathematical script small j/
@@ -1805,7 +1805,7 @@ mttx /𝚡;mathematical monospace small x/
 mtty /𝚢;mathematical monospace small y/
 mttz /𝚣;mathematical monospace small z/
 mttzero /𝟶;mathematical monospace digit 0/
-multimap /⊸;/multimap a:/
+multimap /⊸;multimap a:/
 multimapinv /⟜;left multimap/
 mupAlpha /Α;capital alpha, greek/
 mupBeta /Β;capital beta, greek/
@@ -1845,7 +1845,7 @@ mupmu /μ;small mu, greek/
 mupnu /ν;small nu, greek/
 mupomega /ω;small omega, greek/
 mupomicron /ο;small omicron, greek/
-mupphi /ϕ;/straightphi - small phi, greek/
+mupphi /ϕ;straightphi - small phi, greek/
 muppi /π;small pi, greek/
 muppsi /ψ;small psi, greek/
 muprho /ρ;small rho, greek/
@@ -1860,7 +1860,7 @@ mupvarphi /φ;curly or open small phi, greek/
 mupvarpi /ϖ;rounded small pi (pomega), greek/
 mupvarrho /ϱ;rounded small rho, greek/
 mupvarsigma /ς;terminal sigma, greek/
-mupvartheta /ϑ;/vartheta - curly or open theta/
+mupvartheta /ϑ;vartheta - curly or open theta/
 mupxi /ξ;small xi, greek/
 mupzeta /ζ;small zeta, greek/
 nHdownarrow /⇟;downwards arrow with double stroke/
@@ -1884,9 +1884,9 @@ napprox /≉;not approximate/
 nasymp /≭;not asymptotically equal to/
 natural /♮;music natural/
 ncong /≇;not congruent with/
-ne /≠;/ne /neq r: not equal/
+ne /≠;ne neq r: not equal/
 nearrow /↗;ne pointing arrow/
-neg /¬;/neg /lnot not sign/
+neg /¬;neg lnot not sign/
 neovnwarrow /⤱;north east arrow crossing north west arrow/
 neovsearrow /⤮;north east arrow crossing south east arrow/
 nequiv /≢;not identical with/
@@ -2067,7 +2067,7 @@ rgroup /⟯;mathematical right flattened parenthesis/
 rightangle /∟;right (90 degree) angle/
 rightanglemdot /⦝;measured right angle with dot/
 rightanglesqr /⦜;right angle variant with square/
-rightarrow /→;/rightarrow /to a: rightward arrow/
+rightarrow /→;rightarrow to a: rightward arrow/
 rightarrowapprox /⥵;rightwards arrow above almost equal to/
 rightarrowbackapprox /⭈;rightwards arrow above reverse almost equal to/
 rightarrowbar /⇥;rightwards arrow to bar/
@@ -2161,14 +2161,14 @@ sinewave /∿;sine wave/
 smallblacktriangleleft /◂;left triangle, filled/
 smallblacktriangleright /▸;right triangle, filled/
 smallin /∊;set membership (small set membership)/
-smallni /∍;/ni /owns r: contains (small contains as member)/
+smallni /∍;ni owns r: contains (small contains as member)/
 smalltriangleleft /◃;left triangle, open/
 smalltriangleright /▹;right triangle, open/
 smashtimes /⨳;smash product/
-smblkcircle /•;/bullet b: round bullet, filled/
+smblkcircle /•;bullet b: round bullet, filled/
 smblkdiamond /⬩;black small diamond/
 smblklozenge /⬪;black small lozenge/
-smblksquare /▪;/blacksquare - sq bullet, filled/
+smblksquare /▪;blacksquare - sq bullet, filled/
 smeparsl /⧤;equals sign and slanted parallel with tilde above/
 smile /⌣;up curve/
 smt /⪪;smaller than/
@@ -2361,7 +2361,7 @@ updownharpoonsleftright /⥮;upwards harpoon with barb left beside downwards har
 upfishtail /⥾;up fish tail/
 upharpoonleft /↿;up harpoon-left/
 upharpoonleftbar /⥠;upwards harpoon with barb left from bar/
-upharpoonright /↾;/upharpoonright /restriction a: up harpoon-right/
+upharpoonright /↾;upharpoonright restriction a: up harpoon-right/
 upharpoonrightbar /⥜;upwards harpoon with barb right from bar/
 upharpoonsleftright /⥣;upwards harpoon with barb left beside upwards harpoon with barb right/
 upin /⟒;element of opening upwards/
@@ -2379,11 +2379,11 @@ vBarv /⫩;short up tack above short down tack/
 vDash /⊨;vertical, double dash/
 vDdash /⫢;vertical bar triple right turnstile/
 varVdash /⫦;long dash from left member of double vertical/
-varbarwedge /⌅;/barwedge b: logical and, bar above [projective (bar over small wedge)]/
+varbarwedge /⌅;barwedge b: logical and, bar above [projective (bar over small wedge)]/
 varcarriagereturn /⏎;return symbol/
 varclubsuit /♧;club, white (card suit)/
 vardiamondsuit /♦;filled diamond (card suit)/
-vardoublebarwedge /⌆;/doublebarwedge b: logical and, double bar above [perspective (double bar over small wedge)]/
+vardoublebarwedge /⌆;doublebarwedge b: logical and, double bar above [perspective (double bar over small wedge)]/
 varheartsuit /♥;filled heart (card suit)/
 varhexagon /⬡;white hexagon/
 varhexagonblack /⬢;black hexagon/
@@ -2397,7 +2397,7 @@ varnothing /∅;circle, slash/
 varointclockwise /∲;contour integral, clockwise/
 varspadesuit /♤;spade, white (card suit)/
 varstar /✶;six pointed black star/
-vartriangle /▵;/triangle - up triangle, open/
+vartriangle /▵;triangle - up triangle, open/
 vartriangleleft /⊲;left triangle, open, variant/
 vartriangleright /⊳;right triangle, open, variant/
 varveebar /⩡;small vee with underbar/
@@ -2407,7 +2407,7 @@ vdash /⊢;vertical, dash/
 vdots /⋮;vertical ellipsis/
 vec /⃗;combining right arrow above/
 vectimes /⨯;vector or cross product/
-vee /∨;/vee /lor b: logical or/
+vee /∨;vee lor b: logical or/
 veebar /⊻;logical or, bar below (large vee); exclusive disjunction/
 veedot /⟇;or with dot inside/
 veedoublebar /⩣;logical or with double underbar/
@@ -2427,7 +2427,7 @@ vysmblksquare /⬝;black very small square/
 vysmwhtcircle /∘;composite function (small circle)/
 vysmwhtsquare /⬞;white very small square/
 vzigzag /⦚;vertical zigzag line/
-wedge /∧;/wedge /land b: logical and/
+wedge /∧;wedge land b: logical and/
 wedgebar /⩟;logical and with underbar/
 wedgedot /⟑;and with dot/
 wedgedoublebar /⩠;logical and with double underbar/
